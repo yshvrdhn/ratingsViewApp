@@ -12,6 +12,11 @@
 		D3D425BB1C4A41F3005B3AF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D425B91C4A41F3005B3AF2 /* Main.storyboard */; };
 		D3D425BD1C4A41F3005B3AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D425BC1C4A41F3005B3AF2 /* Assets.xcassets */; };
 		D3D425C01C4A41F3005B3AF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D425BE1C4A41F3005B3AF2 /* LaunchScreen.storyboard */; };
+		D3D425C81C4A9C3A005B3AF2 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D425C71C4A9C3A005B3AF2 /* PlayersViewController.swift */; };
+		D3D425CA1C4AA32C005B3AF2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D425C91C4AA32B005B3AF2 /* Player.swift */; };
+		D3D425CC1C4AA4FE005B3AF2 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D425CB1C4AA4FE005B3AF2 /* SampleData.swift */; };
+		D3D425CE1C4D5793005B3AF2 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D425CD1C4D5793005B3AF2 /* PlayerDetailsViewController.swift */; };
+		D3D425D01C515D9A005B3AF2 /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D425CF1C515D9A005B3AF2 /* GamePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		D3D425BC1C4A41F3005B3AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3D425BF1C4A41F3005B3AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3D425C11C4A41F3005B3AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D425C71C4A9C3A005B3AF2 /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		D3D425C91C4AA32B005B3AF2 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D3D425CB1C4AA4FE005B3AF2 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		D3D425CD1C4D5793005B3AF2 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		D3D425CF1C515D9A005B3AF2 /* GamePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,7 @@
 		D3D425A91C4A41F3005B3AF2 = {
 			isa = PBXGroup;
 			children = (
+				D3D425CF1C515D9A005B3AF2 /* GamePickerViewController.swift */,
 				D3D425B41C4A41F3005B3AF2 /* ratings */,
 				D3D425B31C4A41F3005B3AF2 /* Products */,
 			);
@@ -57,6 +68,10 @@
 				D3D425B51C4A41F3005B3AF2 /* AppDelegate.swift */,
 				D3D425B71C4A41F3005B3AF2 /* ViewController.swift */,
 				D3D425B91C4A41F3005B3AF2 /* Main.storyboard */,
+				D3D425C71C4A9C3A005B3AF2 /* PlayersViewController.swift */,
+				D3D425C91C4AA32B005B3AF2 /* Player.swift */,
+				D3D425CB1C4AA4FE005B3AF2 /* SampleData.swift */,
+				D3D425CD1C4D5793005B3AF2 /* PlayerDetailsViewController.swift */,
 				D3D425BC1C4A41F3005B3AF2 /* Assets.xcassets */,
 				D3D425BE1C4A41F3005B3AF2 /* LaunchScreen.storyboard */,
 				D3D425C11C4A41F3005B3AF2 /* Info.plist */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D425CA1C4AA32C005B3AF2 /* Player.swift in Sources */,
 				D3D425B81C4A41F3005B3AF2 /* ViewController.swift in Sources */,
+				D3D425D01C515D9A005B3AF2 /* GamePickerViewController.swift in Sources */,
+				D3D425CE1C4D5793005B3AF2 /* PlayerDetailsViewController.swift in Sources */,
 				D3D425B61C4A41F3005B3AF2 /* AppDelegate.swift in Sources */,
+				D3D425CC1C4AA4FE005B3AF2 /* SampleData.swift in Sources */,
+				D3D425C81C4A9C3A005B3AF2 /* PlayersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +304,7 @@
 				D3D425C61C4A41F3005B3AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
